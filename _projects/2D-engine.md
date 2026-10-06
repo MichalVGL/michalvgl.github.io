@@ -1,6 +1,6 @@
 ---
-title: "Vulkan Deferred Renderer"
-excerpt: "C++ / Vulkan renderer with a G-buffer pipeline."
+title: "2D component based engine"
+excerpt: "Image generator based on a source image"
 header:
   #teaser: /assets/images/projects/vulkan-thumb.png
   #overlay_image: /assets/images/projects/vulkan-banner.png
@@ -9,7 +9,7 @@ sidebar:
   - title: "Role"
     text: "Solo project"
   - title: "Tech"
-    text: "C++, Vulkan, HLSL"
+    text: "C++"
   - title: "Links"
     text: "[GitHub](https://github.com/yourusername/your-repo)"
 #gallery:
@@ -27,9 +27,9 @@ A short paragraph on what the project is and what you set out to do.
 
 ## What I built
 
-- Geometry pass writing to a G-buffer
-- Lighting pass with point and directional lights
-- Whatever else is worth mentioning
+- SDL abstraction layers. (images, sound, input)
+- Component/GameObject system
+- State based scene system
 
 ## Challenges
 
